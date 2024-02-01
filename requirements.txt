@@ -1,0 +1,1 @@
+dwave-ocean-sdk >= 6.8.0
