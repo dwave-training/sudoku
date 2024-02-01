@@ -4,125 +4,103 @@ The following image shows a challenging Sudoku puzzle.
 
 <table border="2">
   <tr>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td style="border: none"></td>
-    <td> 9 </td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td style="border: none"></td>
-    <td> 1 </td>
-    <td> &nbsp;&nbsp;</td>
-    <td> 2 </td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #aaaaaa;color: black"> 9 </td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> 1 </td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> 2 </td>
   </tr>
   <tr>
-    <td> 7 </td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td style="border: none"></td>
-    <td> 3 </td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td style="border: none"></td>
-    <td> 6 </td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> 7 </td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #aaaaaa;color: black"> 3 </td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> 6 </td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td> 2 </td>
-    <td style="border: none"></td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td> &nbsp;&nbsp;</td>
-    <td style="border: none"></td>
-    <td> &nbsp;&nbsp;</td>
-    <td> 3 </td>
-    <td> &nbsp;&nbsp;</td>
-  </tr>
-  <tr></tr>
-  <tr></tr>
-  <tr>
-    <td> 9 </td>
-    <td> </td>
-    <td> </td>
-    <td style="border: none"></td>
-    <td>  </td>
-    <td> </td>
-    <td> 8 </td>
-    <td style="border: none"></td>
-    <td> 7 </td>
-    <td> </td>
-    <td> </td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> 2 </td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #aaaaaa;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
+    <td style="background: #dddddd;color: black"> 3 </td>
+    <td style="background: #dddddd;color: black"> &nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td> 3 </td>
-    <td> </td>
-    <td> </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> 1 </td>
-    <td> </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> 9 </td>
+    <td style="background: #aaaaaa;color: black"> 9 </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #dddddd;color: black">  </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 8 </td>
+    <td style="background: #aaaaaa;color: black"> 7 </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
   </tr>
   <tr>
-    <td> </td>
-    <td> </td>
-    <td> 6 </td>
-    <td style="border: none"></td>
-    <td> 5 </td>
-    <td> </td>
-    <td> </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> 1 </td>
-  </tr>
-  <tr></tr>
-  <tr></tr>
-  <tr>
-    <td> </td>
-    <td> 1 </td>
-    <td> </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td style="border: none"></td>
-    <td> 4 </td>
-    <td> </td>
-    <td> </td>
+    <td style="background: #aaaaaa;color: black"> 3 </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 1 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> 9 </td>
   </tr>
   <tr>
-    <td> </td>
-    <td> </td>
-    <td> 4 </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> 9 </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> 6 </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> 6 </td>
+    <td style="background: #dddddd;color: black"> 5 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> 1 </td>
   </tr>
   <tr>
-    <td> 8 </td>
-    <td> </td>
-    <td> 3 </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> 6 </td>
-    <td style="border: none"></td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 1 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 4 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
+  </tr>
+  <tr>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 4 </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> 9 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 6 </td>
+  </tr>
+  <tr>
+    <td style="background: #dddddd;color: black"> 8 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> 3 </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> </td>
+    <td style="background: #aaaaaa;color: black"> 6 </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
+    <td style="background: #dddddd;color: black"> </td>
   </tr>
 </table>
 
