@@ -6,10 +6,11 @@ The following image shows a challenging Sudoku puzzle.
 
 A sudoku puzzle solution must satisfy the following rules.
 
-1.  Each column has the numbers 1-9 exactly once.  2.  Each row has the numbers
-1-9 exactly once.  3.  If we divide the grid into 9 subsquares by grouping
-rows/columns (0-2), (3-5), and (6-8), each subsquare has the numbers 1-9
-exactly once.
+1.  Each column has the numbers 1-9 exactly once.  
+2.  Each row has the numbers 1-9 exactly once.  
+3.  If we divide the grid into 9 subsquares by grouping rows/columns (0-2),
+ (3-5), and (6-8), each subsquare has the numbers 1-9
+ exactly once.
 
 ## The Exercise
 
