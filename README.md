@@ -22,6 +22,6 @@ be added to the constrained quadratic model to complete the exercise.
 
 The code provided includes an initial definition of variables to be used.
 Binary variables have been defined as `x[i][j][k]`, where `i` indicates the row
-index, `j` indicates the column index, and `k` indicates a digit from 1-9.
+index, `j` indicates the column index, and `k+1` indicates a digit from 1-9.
 Using this description, we define `x[i][j][k] == 1` if the entry in row `i`,
-column `j` equals digit `k`.
+column `j` equals digit `k+1`.
