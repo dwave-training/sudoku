@@ -25,3 +25,6 @@ Binary variables have been defined as `x[i][j][k]`, where `i` indicates the row
 index, `j` indicates the column index, and `k+1` indicates a digit from 1-9.
 Using this description, we define `x[i][j][k] == 1` if the entry in row `i`,
 column `j` equals digit `k+1`.
+
+*Note that since Python list indices start at 0 and sudoku digits range from
+1-9 we must use index `k` to represent digit `k+1`.*
