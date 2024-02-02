@@ -15,7 +15,7 @@ A sudoku puzzle solution must satisfy the following rules.
 ## The Exercise
 
 Use the framework code provided to solve the Sudoku puzzle shown above. The rules
-provided describe three different types of constraints. These constraints must
+listed describe three different types of constraints. These constraints must
 be added to the constrained quadratic model to complete the exercise.
 
 ### Variable Definition
