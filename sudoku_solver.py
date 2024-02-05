@@ -108,9 +108,9 @@ if __name__ == '__main__':
 
     cqm = build_cqm()
 
-    cqm = initialize_puzzle(cqm, fixed)
+    cqm_with_fixed = initialize_puzzle(cqm, fixed)
 
-    soln = solve_puzzle(cqm)
+    soln = solve_puzzle(cqm_with_fixed)
 
     if soln is None:
 
