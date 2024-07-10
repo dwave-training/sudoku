@@ -6,8 +6,8 @@ The following image shows a challenging Sudoku puzzle.
 
 A sudoku puzzle solution must satisfy the following rules.
 
-1. Each column contains the numbers 1-9 exactly once.  
-2. Each row contains the numbers 1-9 exactly once.  
+1. Each row contains the numbers 1-9 exactly once.  
+2. Each column contains the numbers 1-9 exactly once.  
 3. If we divide the grid into 9 subsquares by grouping rows/columns (0-2),
  (3-5), and (6-8), each subsquare has the numbers 1-9
  exactly once.
@@ -15,7 +15,7 @@ A sudoku puzzle solution must satisfy the following rules.
 ## The Exercise
 
 Use the framework code provided to solve the Sudoku puzzle shown above. The rules
-listed describe three different types of constraints. These constraints must
+listed describe three different types of constraints. The first two constraints must
 be added to the constrained quadratic model to complete the exercise.
 
 ### Variable Definition
