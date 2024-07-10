@@ -21,20 +21,31 @@ def create_variables():
 
     return x
 
-def build_cqm():
+def build_cqm(x):
 
     cqm = ConstrainedQuadraticModel()
-
-    # Add constraints that each square in the grid can only contain one digit
     
+    # TODO: Add constraints that each row contains the numbers 1-9 exactly once
 
-    # Add constraints that each row contains the numbers 1-9 exactly once
+
+
+
+    # TODO: Add constraints that each column contains the numbers 1-9 exactly once
+
+
+
+
+    # Constraints that each subsquare contains the numbers 1-9 exactly once
+    subsquares = [[0,1,2],[3,4,5],[6,7,8]]
+    for r in range(len(subsquares)):
+        for c in range(len(subsquares)):
+            for k in range(1,10):
+                cqm.add_constraint(quicksum(x[i][j][k-1] for i in subsquares[r] for j in subsquares[c]) == 1, label=f'subsquare {r}_{c} dig {k}')
+  
     
+    # TODO: Add constraints that each square in the grid can only contain one digit
 
-    # Add constraints that each column contains the numbers 1-9 exactly once
 
-
-    # Add constraints that each subsquare contains the numbers 1-9 exactly once
 
 
     return cqm
@@ -106,7 +117,7 @@ if __name__ == '__main__':
 
     x = create_variables()
 
-    cqm = build_cqm()
+    cqm = build_cqm(x)
 
     cqm_with_fixed = initialize_puzzle(cqm, fixed)
 
