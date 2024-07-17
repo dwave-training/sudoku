@@ -17,7 +17,8 @@ from dwave.system import LeapHybridCQMSampler
 
 def create_variables():
 
-    x = [[[Binary(f'{i}_{j}_{k}') for k in range(1,10)] for j in range(9)] for i in range(9)]
+    x = [[[Binary(f'{i}_{j}_{k}') for k in range(1,10)] 
+                  for j in range(9)] for i in range(9)]
 
     return x
 
@@ -40,7 +41,9 @@ def build_cqm(x):
     for r in range(len(subsquares)):
         for c in range(len(subsquares)):
             for k in range(1,10):
-                cqm.add_constraint(quicksum(x[i][j][k-1] for i in subsquares[r] for j in subsquares[c]) == 1, label=f'subsquare {r}_{c} dig {k}')
+                cqm.add_constraint(quicksum(x[i][j][k-1] for i in subsquares[r]
+                                                for j in subsquares[c]) == 1,
+                                               label=f'subsquare {r}_{c} dig {k}')
   
     
     # TODO: Add constraints that each square in the grid can only contain one digit
