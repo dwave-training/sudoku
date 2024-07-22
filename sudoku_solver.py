@@ -42,8 +42,8 @@ def build_cqm(x):
         for c in range(len(subsquares)):
             for k in range(1,10):
                 cqm.add_constraint(quicksum(x[i][j][k-1] for i in subsquares[r]
-                                                for j in subsquares[c]) == 1,
-                                               label=f'subsquare {r}_{c} dig {k}')
+                                                            for j in subsquares[c]) == 1,
+                                                            label=f'subsquare {r}_{c} dig {k}')
   
     
     # TODO: Add constraints that each square in the grid can only contain one digit
